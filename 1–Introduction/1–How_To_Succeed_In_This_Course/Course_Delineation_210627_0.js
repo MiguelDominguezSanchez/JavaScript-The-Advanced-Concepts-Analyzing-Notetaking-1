@@ -57,7 +57,7 @@
 					'Pipe',
 				],
 			},
-			Extras: {
+			Bonus: {
 				Asynchronous_Javascript: [
 					'Web_APIs',
 					'Async_Await',
