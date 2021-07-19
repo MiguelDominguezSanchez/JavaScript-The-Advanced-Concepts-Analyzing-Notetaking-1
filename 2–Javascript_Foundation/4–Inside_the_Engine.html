@@ -8,7 +8,7 @@
 </head>
 <body>
     <div>
-        <h1>3–Exercise_JavaScript_Engine</h1>
+        <h1>4–Inside_The_Engine</h1>
         <div>
             <p>welcome back, so we know that this thing called the javascript engine, takes our written javascript code and does  some magic, to tell the computer to do what we want it to do. So What's happening inside this engine?</p>
             <p>And here is the tricky part. As we know this  engine can be built by anybody. Yes that means you can build your own javascript engine, but its a lot of work an at the end of the day. It is just a program.</p>
@@ -17,15 +17,16 @@
             <p>So we parse the code, we try to  figure out how the text is divided up, based on keywords from javascript, and it gets form into this tree like structure, called Abstract Syntax tree. ANd  there is a fun little tool  online that you can use, to demo this</p>
             <p>If we go to 'astexplorer.net'</p>
             <p>I will show how this Abstract Syntax Tree looks like, and we have a bit of code here</p>
-            <p>1'50''</p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
+            <p>And as you can see, you  can loook at it in JSON format, ot you can use it the tree, and it breaks down the program into different things that are happening. We have a variable declaration, a declarator, ...</p>
+            <p>And although this might look like gibberish now to you. This alow the engine to understand what is going on in  the program. Please break things down, one by one. And once in this form, it goes into something called an 'interpreter', 'profiler', 'compiler', and we get some sort of code, which we are gonna talk about later. And this whole engine, its gonna spit out some code, that our Cpu in our computer, its going to understand to give it instructions.  And you can think  in this whole process, again which we are gonna talk about in more detail coming up. As something like this</p>
+            <p>We can create our javascript engine, by saying (#4 – js stylesheet)</p>
+            <p>look att that we have created a simple engine, I know there is a lot more complexity to it than that, but that what is doing. We are giving it a piece  of code, which it gets stringyfied. And then  it tries and  breaks thing down, into different parts, so that maybe in this function we can say, if you see variable keyword 'var', that means whatever comes after is a variable that we are gonna assign, and so on and forth </p>
+            <p>But you  may see a problem here</p>
             <p></p>
             <p></p>
             <p></p>
         </div>
     </div>
+    <script src="4–Inside_the_Engine.js"></script>
 </body>
 </html>
